@@ -1,6 +1,7 @@
 package at.fhcampus.we.controller;
 
 import at.fhcampus.we.entities.User;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,6 +15,8 @@ import java.util.List;
 @RequestMapping("/api/hello-world")
 public class HelloWorldController {
 
+    // @todo: Until we package everything into one jar, we will have to deal with X-Origin
+    @CrossOrigin(origins = "http://localhost:63342")
     @GetMapping({"", "/"})
     public List<User> exampleDataStructure() {
         return Collections.singletonList(
