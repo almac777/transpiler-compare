@@ -16,7 +16,7 @@ import java.util.List;
 public class HelloWorldController {
 
     // @todo: Until we package everything into one jar, we will have to deal with X-Origin
-    @CrossOrigin(origins = "http://localhost:63342")
+    @CrossOrigin(origins = { "http://localhost:63342", "http://localhost:4200" })
     @GetMapping({"", "/"})
     public List<User> exampleDataStructure() {
         return Collections.singletonList(
