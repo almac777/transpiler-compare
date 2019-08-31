@@ -2,3 +2,4 @@ rootProject.name = 'tech-overview'
 
 include ":backend"
 include ":kotlin-js"
+include ":javascript"
