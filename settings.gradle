@@ -2,5 +2,7 @@ rootProject.name = 'tech-overview'
 
 include ":backend"
 include ":kotlin-js"
+include ":react-js"
 include ":javascript"
 include ":ts-angular"
+include ":gwt"
