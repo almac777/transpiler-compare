@@ -3,7 +3,7 @@ Using different transpilers to implement a simple client that consumes an REST A
 
 # Backend
 
-`./gradlew :backend:bootRun
+`./gradlew :backend:bootRun`
 
 # GWT
 
