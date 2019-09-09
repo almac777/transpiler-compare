@@ -4,7 +4,7 @@ https://gwt-gradle-plugin.documentnode.io/setup-and-configuration/quickstart
 
 ## Compilation
 
-Simply run `./gradlew :gwt:cimpileGwt`
+Simply run `./gradlew :gwt:compileGwt`
 
 Should an error occur consider using Java 1.8.
 
